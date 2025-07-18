@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a La Anisacatense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        /* Usamos display: table para el header para mayor compatibilidad */
+        .header {
+            background-color: #1E73BE;
+            width: 100%;
+            height: 160px;
+            display: table;
+        }
+        /* La celda actúa como contenedor centrado verticalmente */
+        .header .table-cell {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .header img {
+            max-width: 90%;
+            width: auto;
+            height: auto;
+            display: inline-block;
+        }
+        .content {
+            padding: 20px;
+            color: #333333;
+        }
+        .content h1 {
+            color: #1E73BE;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .footer {
+            padding: 20px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+            color: #777;
+        }
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            .content h1 {
+                font-size: 20px;
+            }
+            .content p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Header con estructura tipo tabla para centrar la imagen verticalmente -->
+    <div class="header">
+        <div class="table-cell">
+            <img src="https://drive.google.com/uc?id=1N-f_QPToPsFuFbeBoLm3lzDnxZ3ttcSZ" alt="Municipalidad de Anisacate">
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h1>¡Bienvenido a La Anisacatense!</h1>
+        <p>
+            Estimado/a vecino/a,<br><br>
+            Gracias por unirte a <strong>La Anisacatense</strong>, la app oficial de la Municipalidad de Anisacate.
+            Con esta herramienta, podrás cargar y hacer seguimiento a tus <strong>Solicitudes</strong> sobre servicios públicos
+            de forma rápida y sencilla.
+        </p>
+        <p>
+            Te invitamos a explorar todas las funcionalidades disponibles para mejorar la comunicación entre la municipalidad y la comunidad.
+        </p>
+    </div>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        <p>Este es un correo automático. Por favor no responda este mail.</p>
+        <p>Municipalidad de Anisacate</p>
+    </div>
+</div>
+</body>
+</html>
