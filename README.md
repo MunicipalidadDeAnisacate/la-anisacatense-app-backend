@@ -57,3 +57,5 @@ La base de datos usada es MySQL, y debe estar previamente creada con el nombre i
 Los archivos estáticos e imágenes se almacenan en Google Cloud Storage.
 Las notificaciones automáticas por SMS y correo electrónico son gestionadas con Twilio.
 WebSockets están habilitados para notificaciones en tiempo real.
+
+### Autor: Mateo Blencio
